@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: localhost
--- Létrehozás ideje: 2026. Jan 26. 13:22
+-- Létrehozás ideje: 2026. Már 09. 19:44
 -- Kiszolgáló verziója: 10.4.32-MariaDB
 -- PHP verzió: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Adatbázis: `zenek`
+-- Adatbázis: `fa_zenek`
 --
 
 -- --------------------------------------------------------
@@ -55,7 +55,6 @@ INSERT INTO `albums` (`id`, `band_id`, `title`, `release_year`, `cover_url`, `to
 (12, 1, 'Battles', 2016, 'Battles.jpg', 76000000),
 (13, 1, 'I, the Mask', 2019, 'I, the Mask.jpg', 143000000),
 (14, 1, 'Foregone', 2023, 'Foregone.jpg', 156000000),
-(15, 1, '', 0, NULL, 0),
 (16, 3, 'When Dream and Day Unite', 1989, NULL, 0),
 (17, 3, 'Images and Words', 1992, NULL, 0),
 (18, 3, 'Awake', 1994, NULL, 0),
